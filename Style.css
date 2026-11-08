@@ -21,7 +21,6 @@ body {
     line-height: 1.7;
 }
 
-/* HEADER */
 
 .header {
     display: flex;
@@ -62,7 +61,6 @@ body {
     color: var(--primary);
 }
 
-/* HERO */
 
 .hero {
     min-height: 620px;
@@ -172,7 +170,6 @@ body {
     color: var(--muted);
 }
 
-/* GENERAL SECTIONS */
 
 .section {
     padding: 90px 10%;
@@ -191,7 +188,6 @@ body {
     color: var(--muted);
 }
 
-/* ABOUT */
 
 .about-content {
     max-width: 850px;
@@ -199,7 +195,6 @@ body {
     font-size: 17px;
 }
 
-/* SKILLS */
 
 .skills-section {
     background: #0f192b;
@@ -238,7 +233,6 @@ body {
     font-size: 14px;
 }
 
-/* PROJECTS */
 
 .projects-grid {
     display: grid;
@@ -317,7 +311,6 @@ body {
     font-weight: bold;
 }
 
-/* CONTACT */
 
 .contact-section {
     text-align: center;
@@ -338,7 +331,6 @@ body {
     text-decoration: none;
 }
 
-/* FOOTER */
 
 footer {
     text-align: center;
@@ -348,7 +340,6 @@ footer {
     font-size: 14px;
 }
 
-/* RESPONSIVE DESIGN */
 
 @media (max-width: 900px) {
     .skills-grid {
@@ -396,7 +387,6 @@ footer {
     }
 }
 
-/* PROFILE PHOTO */
 .hero-image {
     width: 180px;
     height: 180px;
