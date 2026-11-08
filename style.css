@@ -1,0 +1,17 @@
+.hero-image {
+    width: 180px !important;
+    height: 180px !important;
+    flex: 0 0 180px;
+    border-radius: 50% !important;
+    overflow: hidden !important;
+}
+
+.hero-image img {
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
+    object-fit: cover !important;
+    object-position: center;
+    border-radius: 50% !important;
+    display: block;
+}

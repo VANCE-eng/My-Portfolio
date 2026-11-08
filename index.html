@@ -1,83 +1,236 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+
+    <meta name="description" content="Portfolio of Evans Mutai, Junior Software Developer. Explore my skills, projects and contact information.">
+
+    <title>Evans Mutai | Junior Software Developer</title>
     <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
 
-   <header>
-    <h1>Evans Mutai</h1>
-    <p>Junior Software Developer</p>
-    <a href="https://github.com/VANCE-eng" target="_blank">GitHub Profile</a>
-</header>
+    <header class="header">
+        <a href="#" class="logo">Evans<span>.</span></a>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
     <main>
 
-        <section id="about">
-            <h2>About Me</h2>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-image">
+                <div class="hero-image">
+                    <img src="images/evans.jpg" alt="Portrait of Evans Mutai">
+                </div>
+                </div>
+                <p class="intro">HELLO, I'M</p>
+
+                <h1>Evans Mutai</h1>
+
+                <h2>Junior Software Developer</h2>
+
+                <p class="hero-description">
+                    I am a Software Engineering student passionate about
+                    building useful, responsive and user-friendly web
+                    applications. I enjoy learning new technologies
+                    and solving problems through code.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary-btn">
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        Contact Me
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/VANCE-eng"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub Profile ↗
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="section-label">GET TO KNOW ME</p>
+                <h2>About Me</h2>
+            </div>
+
+            <div class="about-content">
+                <p>
+                    My name is Evans Mutai, and I am a Software Engineering
+                    student at Moringa School.
+
+                    I am developing my skills in web development and
+                    programming, with a focus on HTML, CSS, JavaScript/React
+                    and modern software development practices.
+
+                    I enjoy building projects, learning through practical
+                    experience and continuously improving my coding skills.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills" class="section skills-section">
+            <div class="section-heading">
+                <p class="section-label">WHAT I WORK WITH</p>
+                <h2>My Technical Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <span>🌐</span>
+                    <h3>HTML</h3>
+                    <p>Building structured web pages.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>🎨</span>
+                    <h3>CSS</h3>
+                    <p>Creating responsive website designs.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>⚡</span>
+                    <h3>JavaScript</h3>
+                    <p>Adding functionality and interactivity.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>⚛️</span>
+                    <h3>React</h3>
+                    <p>Building interactive user interfaces using reusable components and React Hooks.</p>
+                </article>
+
+                <article class="skill-card">
+                    <span>🔧</span>
+                    <h3>Git & GitHub</h3>
+                    <p>Managing code and collaborating on projects.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="section-label">MY RECENT WORK</p>
+                <h2>Featured Projects</h2>
+                <p>Some of the projects I have worked on while learning software development.</p>
+            </div>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-visual calculator-visual">
+                        <span>01</span>
+                        <h3>Calculator</h3>
+                        <div class="hero-image">
+                        <img src="recha-oktaviani-h2aDKwigQeA-unsplash.jpg" alt="Calculator project">
+                    </div>                    </div>
+
+                    <div class="project-info">
+                        <h3>Calculator Project</h3>
+                    
+                        <p>
+                            A basic calculator project designed to perform
+                            mathematical calculations using programming.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="https://github.com/VANCE-eng"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Explore GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual javascript-visual">
+                        <span>02</span>
+                        <h3>JavaScript</h3>
+
+                        <div class="hero-image">
+                        <img src="mohammad-rahmani-oXlXu2qukGE-unsplash.jpg" alt="JavaScript project">
+                    </div>
+                        <div class="js-symbol">{ JS }</div>
+                    </div>
+
+                    <div class="project-info">
+                        <h3>JavaScript Functions</h3>
+                        <p>
+                            A practical JavaScript project exploring
+                            functions, programming logic and reusable code.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Programming</span>
+                        </div>
+
+                        <a href="https://github.com/VANCE-eng"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Explore GitHub ↗
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section contact-section">
+            <div class="section-heading">
+                <p class="section-label">LET'S CONNECT</p>
+                <h2>Contact Me</h2>
+            </div>
+
             <p>
-                My name is Evans Mutai. I am a beginner of Software Engineering
-                student learning HTML, CSS, JavaScript, Git and GitHub at Moringa.
+                I am always interested in learning, collaborating
+                and exploring opportunities in software development.
             </p>
-        </section>
 
-        <section id="skills">
-            <h2>My Skills</h2>
+            <a href="mailto:kmutai290@gmail.com" class="btn primary-btn">
+                Send Me an Email
+            </a>
 
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Git and GitHub</li>
-            </ul>
-        </section>
-
-        <section id="projects">
-    <h2>My Projects</h2>
-
-    <article>
-        <h3>Calculator</h3>
-        <img src="recha-oktaviani-h2aDKwigQeA-unsplash.jpg" alt="Calculator project">
-        <p>
-            A calculator project created to perform basic mathematical
-            calculations using programming.
-        </p>
-    </article>
-
-    <article>
-        <h3>JavaScript Functions</h3>
-        <img src="mohammad-rahmani-oXlXu2qukGE-unsplash.jpg" alt="JavaScript Functions project">
-        <p>
-            A JavaScript project created while learning and practicing
-            different JavaScript functions.
-        </p>
-    </article>
-</section>
-
-        <section id="contact">
-            <h2>Contact Me</h2>
-
-            <p>Email: kmutai290@gmail.com</p>
-            <p>GitHub: Evans Mutai
-                VANCE-eng</p>
+            <p class="github-contact">
+                GitHub:
+                <a href="https://github.com/VANCE-eng"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    github.com/VANCE-eng
+                </a>
+            </p>
         </section>
 
     </main>
 
     <footer>
-        <p>&copy; 2026 Evans Mutai. All rights reserved.</p>
+        <p>&copy; 2026 Evans Mutai. Built with HTML and CSS.</p>
     </footer>
-</body>
 
+</body>
 </html>
